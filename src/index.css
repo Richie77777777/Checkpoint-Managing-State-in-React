@@ -5,9 +5,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Add to index.css */
+button {
+  margin: 0 5px;
+  color: aqua;
+  background-color: black;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: aquamarine;
+}
+
